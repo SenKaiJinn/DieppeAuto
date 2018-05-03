@@ -1,7 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Dell
- * Date: 03/05/2018
- * Time: 09:46
- */
+date_default_timezone_set (timezone"Europe/Paris");
+require_once "./functions/classAutoLoader.php";
+spl_autoload_register (spl_autoload_functions'classAutoLoader');
